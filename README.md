@@ -3,6 +3,7 @@ This is an implementation of a testbed for validating and optimizing load balanc
 
 The testbed takes as input a system configuration represents as follows:
 
+ ```json
  config = {
         LoadBalancingAlgorithm: <value>,
         NoServers: <value>,
@@ -17,5 +18,6 @@ The testbed takes as input a system configuration represents as follows:
         MaxSizeRequestPayload: <value>, //MB
         MinSizeRequestPayload: <value>, //MB
     }
+```
 
 Given an configuration instance, the aim is to verify the limits of the system in its ability to be highly-available, resilient and to withstand a denial of service attack. 
