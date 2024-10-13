@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "find-free-ports": "^3.1.1"
+  }
+}
