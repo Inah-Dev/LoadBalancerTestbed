@@ -3,7 +3,7 @@ This is an implementation of a testbed for validating and optimizing load balanc
 
 The testbed takes as input a system configuration represents as follows:
 
- ```json
+ ```javascript
  config = {
         LoadBalancingAlgorithm: <value>,
         NoServers: <value>,
